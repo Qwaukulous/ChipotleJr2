@@ -2,8 +2,9 @@ package com.company;
 import java.util.ArrayList;
 import java.util.Random;
 
+
 public class Main {
-import static java.util.ArrayList<java.lang.String>
+
     public static void main(String[] args) {
 
         Random rnd = new Random();
@@ -64,13 +65,10 @@ import static java.util.ArrayList<java.lang.String>
                     greens = rnd.nextInt(salsa.size());
                 }
 
-                arroz = rice.get(arroz);
-                carne = meat.get(carne);
-                beanz = beans.get(beans);
-                yalsa = salsa.get(yalsa);
-                greens = veggies.get(veggies);
+               System.out.println(rice.get(arroz));
 
-                System.out.println("Burrito" + arroz + "," + carne + "," + beanz + "," + yalsa + "," + greens);
+
+                System.out.println("Burrito "+ i +"," + arroz + "," + carne + "," + beanz + "," + yalsa + "," + greens);
 
 
 
