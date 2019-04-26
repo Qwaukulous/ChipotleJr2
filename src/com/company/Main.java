@@ -56,19 +56,18 @@ public class Main {
 
 
 
-            for (int i = 1; i <=25; i++) {
-                for (int k = 0; k <= 25; k++) {
+            for (int i = 1; i <=10; i++) {
+                for (int k = 0; k <= 10; k++) {
                     arroz = rnd.nextInt(rice.size());
                     carne = rnd.nextInt(meat.size());
                     beanz = rnd.nextInt(beans.size());
                     yalsa = rnd.nextInt(salsa.size());
-                    greens = rnd.nextInt(salsa.size());
+                    greens = rnd.nextInt(veggies.size());
                 }
 
-               System.out.println(rice.get(arroz));
 
 
-                System.out.println("Burrito "+ i +"," + arroz + "," + carne + "," + beanz + "," + yalsa + "," + greens);
+                System.out.println("Burrito" + ":" + rice.get(arroz) + "," + meat.get(carne) + "," + beans.get(beanz) + "," +  salsa.get(yalsa)+ "," + veggies.get(greens));
 
 
 
